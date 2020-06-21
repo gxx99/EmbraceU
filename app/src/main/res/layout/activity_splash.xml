@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--添加一张欢迎界面的背景-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg">
+    <TextView
+        android:id="@+id/EmbraceU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="EmbraceU"
+        android:textSize="44sp" />
+    <!--显示版本号-->
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+</RelativeLayout>

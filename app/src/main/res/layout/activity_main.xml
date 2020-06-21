@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+
+        android:background="@android:color/white"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <!--标题栏-->
+
+       <include layout="@layout/main_title_bar" />
+
+        <!--放置Fragment的main_body-->
+
+        <RelativeLayout
+
+            android:id="@+id/main_body"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:background="@android:color/white">
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:id="@+id/main_bottom_bar"
+
+        android:layout_alignParentBottom="true"
+
+        android:background="#F2F2F2"
+
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="55dp">
+
+        <RelativeLayout
+
+            android:layout_weight="1"
+
+            android:id="@+id/bottom_bar_main_btn"
+
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:id="@+id/bottom_bar_text_main"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginBottom="3dp"
+
+                android:gravity="center"
+
+                android:singleLine="true"
+
+                android:text="主 页"
+
+                android:textColor="#666666"
+
+                android:textSize="14sp"/>
+
+            <ImageView
+
+                android:layout_width="27dp"
+
+                android:layout_height="27dp"
+
+                android:layout_above="@+id/bottom_bar_text_main"
+
+                android:layout_alignParentTop="true"
+
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="3dp"
+
+                android:id="@+id/bottom_bar_image_main"
+
+                android:src="@drawable/i1"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_weight="1"
+
+            android:id="@+id/bottom_bar_consult_btn"
+
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:id="@+id/bottom_bar_text_consult"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginBottom="3dp"
+
+                android:gravity="center"
+
+                android:singleLine="true"
+
+                android:text="心理咨询"
+
+                android:textColor="#666666"
+
+                android:textSize="14sp"/>
+
+            <ImageView
+
+                android:layout_width="27dp"
+
+                android:layout_height="27dp"
+
+                android:layout_above="@+id/bottom_bar_text_consult"
+
+                android:layout_alignParentTop="true"
+
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="3dp"
+
+                android:id="@+id/bottom_bar_image_consult"
+
+                android:src="@drawable/i2"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_weight="1"
+
+            android:id="@+id/bottom_bar_meditation_btn"
+
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:id="@+id/bottom_bar_text_meditation"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginBottom="3dp"
+
+                android:gravity="center"
+
+                android:singleLine="true"
+
+                android:text="冥想空间"
+
+                android:textColor="#666666"
+
+                android:textSize="14sp"/>
+
+            <ImageView
+
+                android:layout_width="27dp"
+
+                android:layout_height="27dp"
+
+                android:layout_above="@+id/bottom_bar_text_meditation"
+
+                android:layout_alignParentTop="true"
+
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="3dp"
+
+                android:id="@+id/bottom_bar_image_meditation"
+
+                android:src="@drawable/i3"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_weight="1"
+
+            android:id="@+id/bottom_bar_info_btn"
+
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:id="@+id/bottom_bar_text_info"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginBottom="3dp"
+
+                android:gravity="center"
+
+                android:singleLine="true"
+
+                android:text="个人中心"
+
+                android:textColor="#666666"
+
+                android:textSize="14sp"/>
+
+            <ImageView
+
+                android:layout_width="27dp"
+
+                android:layout_height="27dp"
+
+                android:layout_above="@+id/bottom_bar_text_info"
+
+                android:layout_alignParentTop="true"
+
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="3dp"
+                android:id="@+id/bottom_bar_image_info"
+                android:src="@drawable/i4"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
