@@ -66,7 +66,7 @@
         android:layout_marginRight="35dp"
         android:layout_marginTop="15dp"
         android:text="请输入新密码"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/darker_gray"
         android:textSize="18sp"
         android:visibility="gone"/>
 
@@ -77,8 +77,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="35dp"
         android:layout_marginRight="35dp"
-        android:background="@drawable/inbg"
-        android:drawableLeft="@drawable/inbg"
+        android:background="@drawable/login_bg"
+        android:drawableLeft="@drawable/psw_icon"
         android:drawablePadding="10dp"
         android:hint="请输入密码"
         android:inputType="textPassword"
